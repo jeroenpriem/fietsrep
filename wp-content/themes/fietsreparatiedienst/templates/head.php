@@ -3,6 +3,19 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
+
+  <!--_____  ____  _    ___          ________  _____ _______       _____  
+  / ____|/ __ \| |  | \ \        / /  ____|/ ____|__   __|/\   |  __ \ 
+ | |  __| |  | | |  | |\ \  /\  / /| |__  | (___    | |  /  \  | |  | |
+ | | |_ | |  | | |  | | \ \/  \/ / |  __|  \___ \   | | / /\ \ | |  | |
+ | |__| | |__| | |__| |  \  /\  /  | |____ ____) |  | |/ ____ \| |__| |
+  \_____|\____/ \____/    \/  \/   |______|_____/   |_/_/    \_\_____/ 
+                                                              
+      |\/|  _. ._ |   _ _|_ o ._   _    ()    |\/|  _   _| o  _. 
+      |  | (_| |  |< (/_ |_ | | | (_|   (_X   |  | (/_ (_| | (_| 
+                                   _|                            
+                          © www.gouwestadmm.nl
+-->
 <head>
   <meta charset="utf-8">
   <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
