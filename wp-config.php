@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', '_fiets');
+define('DB_NAME', 'gouwesta_fiets');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'gouwesta_fietsus');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Welk0m01');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -89,5 +89,5 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('WP_HOME','http://192.168.1.184/~lexbijl/fietsrep/');
-define('WP_SITEURL','http://192.168.1.184/~lexbijl/fietsrep/');
+define('WP_HOME','http://gouwestad.com/fietsreparatiedienst.nl');
+define('WP_SITEURL','http://gouwestad.com/fietsreparatiedienst.nl');
