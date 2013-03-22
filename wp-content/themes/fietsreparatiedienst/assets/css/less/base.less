@@ -130,82 +130,6 @@ h6{
   Set background-color & set text color based on the background-color
 ========================================================================== */
 
-
-.text-color (@bgcolor) when (lightness(@bgcolor) >= 50%) {
-  color: @textColor;
-  background: @bgcolor;
-}
-.text-color (@bgcolor) when (lightness(@bgcolor) < 50%) {
-  h1, h2, h3, h4, h5, h6, p, small{
-  color: @white;
-  }
-  color: @white;
-  background: @bgcolor;
-}
-
-.white{
-  .text-color(@white)
-  }
-
-.black{
-  .text-color(@black)
-}
-
-.gray{
-  .text-color(@gray)
-  }
-
-.graylight{
-  .text-color(@grayLight)
-  }
-
-
-.graylighter{
-  .text-color(@grayLighter)
-  }
-
-.graydark{
-  .text-color(@grayDark)
-  }
-  
-.graydarker{
-  .text-color(@grayDarker)
-  }
-
-.blue{
-  .text-color(@blue)
-  }
-
-.bluedark{
-  .text-color(@blueDark)
-  }
-  
-.green{
-  .text-color(@green)
-  }
-
-.red{
-  .text-color(@red)
-  }
-
-.yellow{
-  .text-color(@yellow)
-}
- 
-.orange{
-  .text-color(@orange)
-  }
-
-
-.pink{
-  .text-color(@pink)
-  }
-
-.purple{
-  .text-color(@purple)
-  } 
-
-
 /* ==========================================================================
    Navs
 ========================================================================== */
@@ -279,7 +203,7 @@ nav.main{
             width: 100%;
             height: 100%;
             background: rgba(0,0,0,0.5);
-            color: @white;
+            color: #fff;
             text-align: center;
             opacity: 0;
             -moz-transition: 0.4s all ease;
@@ -336,9 +260,7 @@ nav.main{
    margin-top: -45px;
    left: 0;
    font-weight: normal;
-   background: @linkColor;
    text-align: center;
-   color: @white;
     display: block;
    z-index: 100;
 
