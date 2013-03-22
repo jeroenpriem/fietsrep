@@ -25,17 +25,6 @@
           </div>
       </div>       
     
-    </div>         
-        <div class="row-fluid clearfix">
-          <div class="span3">
-          </div>
-          <div class="span6">
-            <h1>Fiets kapot?</h1>
-              <p>Zoek hier de dichtstbijzijnde fietsenmaker</p>
-              <a href="#" class="btn btn-large btn-primary btn-block" id="zoekform-link"> Zoeken</a>
-          <div class="span3">
-          </div>
-          </div>
-        </div>
-    </div>
-  </header>
+    </div> 
+  </div>        
+</header>

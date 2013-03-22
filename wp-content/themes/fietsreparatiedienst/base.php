@@ -13,9 +13,8 @@
     }
   ?>
 
-      <div class="main" role="main">
         <?php include roots_template_path(); ?>
-      </div><!-- /.main -->
+        
       <?php if (roots_display_sidebar()) : ?>
       <aside class="sidebar" role="complementary">
         <?php include roots_sidebar_path(); ?>
