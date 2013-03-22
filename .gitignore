@@ -13,7 +13,7 @@
 *.vi
 *~
 *.sass-cache
-*.htaccess
+.htaccess
 wp-config.php
 
 gitmerge.php

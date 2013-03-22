@@ -19,7 +19,7 @@
 define('DB_NAME', '_fiets');
 
 /** MySQL database username */
-define('DB_USER', 'roots');
+define('DB_USER', 'root');
 
 /** MySQL database password */
 define('DB_PASSWORD', '');
@@ -89,5 +89,5 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('WP_HOME','http://gouwestad.com/fietsreparatiedienst.nl');
-define('WP_SITEURL','http://gouwestad.com/fietsreparatiedienst.nl');
+define('WP_HOME','http://192.168.1.184/~lexbijl/fietsrep/');
+define('WP_SITEURL','http://192.168.1.184/~lexbijl/fietsrep/');
