@@ -3,20 +3,12 @@
     </div>
     <div class="container">
       <div class="row-fluid clearfix">
-          <div class="span4">
-          </div>
-          <div class="span4">
-            <a class="brand" href="<?php echo home_url(); ?>/">
-            <img src="http://www.gouwestad.com/fietsreparatiedienst/assets/img/logo.png" alt="logo"/>
-            </a>
-          </div>
-          <div class="span4">
-          </div>
-      </div>
-      <div class="row-fluid clearfix">
         <div class="navbar">
           <div class="navbar-inner">
             <div class="container">
+              <a class="brand" href="<?php echo home_url(); ?>/">
+            <img src="http://www.gouwestad.com/fietsreparatiedienst/assets/img/logo.png" alt="logo"/>
+            </a>
               <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
