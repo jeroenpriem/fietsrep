@@ -6,7 +6,7 @@
       <span class="icon-bar"></span>
     </button>
     <a href="<?php echo home_url(); ?>/" class="navbar-brand"> <img src="http://www.gouwestad.com/fietsreparatiedienst/assets/img/logo.png" alt="logo"/></a>
-    <div class="nav-collapse collapse">
+    <div class="nav-collapse collapse pull-right">
       <?php
       if (has_nav_menu('primary_navigation')) :
         wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav center'));
