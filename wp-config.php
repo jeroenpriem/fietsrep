@@ -93,3 +93,6 @@ define('WP_HOME','http://192.168.1.184/~lexbijl/fietsrep/');
 define('WP_SITEURL','http://192.168.1.184/~lexbijl/fietsrep/');
 
 
+/* Multisite */
+define('WP_ALLOW_MULTISITE', true);
+
