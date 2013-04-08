@@ -34,6 +34,7 @@ nbproject
 # Komodo
 *.komodoproject
 .komodotools
+wp-config.php
 
 # Folders to ignore
 .hg
