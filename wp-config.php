@@ -89,13 +89,8 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-<<<<<<< HEAD
-define('WP_HOME','http://http://gouwestad.com/fietsreparatiedienst.nl/');
-define('WP_SITEURL','http://http://gouwestad.com/fietsreparatiedienst.nl/');
+define('WP_HOME','http://192.168.1.184/~lexbijl/fietsrep/');
+define('WP_SITEURL','http://192.168.1.184/~lexbijl/fietsrep/');
 
 /* Multisite */
 define('WP_ALLOW_MULTISITE', true);
-=======
-define('WP_HOME','http://192.168.1.184/~lexbijl/fietsrep/');
-define('WP_SITEURL','http://192.168.1.184/~lexbijl/fietsrep/');
->>>>>>> Revert "wp-config activate multisite"
