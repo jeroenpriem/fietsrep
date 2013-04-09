@@ -5507,7 +5507,7 @@ html {
 .home .fullscreen {
   height: 100%;
   color: #fff;
-  background: #666666 url("http://2.s3.envato.com/files/38814408/IMG_3492-2.jpg") no-repeat center center fixed;
+  background: #666666 url("../img/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
