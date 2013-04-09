@@ -13,14 +13,28 @@ Template Name: Home
       </div>
     </div> 
     <div class="subscribe">
-      <div class="row">
-        <div class="span8">
-          <input type="text" class="input-large input-block" placeholder="Email">
-        </div>
-        <div class="span4">
-          <button type="submit" class="btn btn-large btn-block btn-primary">Blijf op de hoogte</button>
-        </div>
-      </div>
+      <!-- Begin MailChimp Signup Form -->
+      <form action="http://fietsreparatiedienst.us5.list-manage1.com/subscribe/post?u=d21b4a167bb652dd3a8a7f7b7&amp;id=7be5d01950" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="indicates-required"><span class="asterisk">*</span> vereist veld</div>
+          <div class="row">
+            <div class="span8">
+              <input type="email" value="" name="EMAIL" class="required email input-large input-block" placeholder="Email" id="mce-EMAIL">
+            </div>
+            <div class="span4">
+              <input type="submit" value="Blijf op de hoogte" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-block btn-primary">
+            </div>
+          </div>
+          <div class="row">
+            <div class="span12">
+             <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+             </div>    
+            </div>
+          </div>
+        </form>
+
+<!--End mc_embed_signup-->
       <hr>
       <div class="row">
         <div class="span12 center">
@@ -43,14 +57,5 @@ Template Name: Home
       </div>
     </div>
     <hr>
-    <div class="row">
-      <div class="span6">
-        John heeft een probleem. Hij is onderweg naar zijn werk toe en zijn band klapt. Hij heeft niet veel tijd en moet toch door naar kantoor. John heeft geen gereedschap en geen plaksetje bij zich.
-      </div>
-    </div>
-    <div class="row">
-      <div class="span6">
-      </div>
-    </div>
   </div>
 </section>
