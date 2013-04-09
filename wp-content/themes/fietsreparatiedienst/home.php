@@ -15,10 +15,9 @@ Template Name: Home
     <div class="subscribe">
       <!-- Begin MailChimp Signup Form -->
       <form action="http://fietsreparatiedienst.us5.list-manage1.com/subscribe/post?u=d21b4a167bb652dd3a8a7f7b7&amp;id=7be5d01950" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="indicates-required"><span class="asterisk">*</span> vereist veld</div>
           <div class="row">
             <div class="span8">
-              <input type="email" value="" name="EMAIL" class="required email input-large input-block" placeholder="Email" id="mce-EMAIL">
+              <input type="email" value="" name="EMAIL" class="required email input-large input-block" placeholder="Email" id="mce-EMAIL">
             </div>
             <div class="span4">
               <input type="submit" value="Blijf op de hoogte" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-block btn-primary">
